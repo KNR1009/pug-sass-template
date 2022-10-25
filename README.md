@@ -18,13 +18,7 @@ $ yarn gulp もしくは yarn dev（実行するとdistディレクトリに出�
 ## 使用技術
 
 - pug([pug の書き方](https://qiita.com/takeshisakuma/items/fdcf456d8250e6dafc7b))
-
-HTML を効率的に書くためのテンプレートエンジン
-
 - sass([sass の書き方](https://qiita.com/nchhujimiyama/items/8a6aad5abead39d1352a))
-
-CSS を拡張したもの
-
 - jQuery
 
 ## CSS 設計について

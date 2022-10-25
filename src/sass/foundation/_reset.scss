@@ -1,12 +1,10 @@
-/* リセットCSS */
-
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 18px;
   line-height: normal;
   color: #282828;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 h1,
@@ -69,7 +67,6 @@ img {
   width: 100%;
   height: auto;
   vertical-align: top;
-  // 画像に無駄な良学を入らないようにする
   display: block;
 }
 

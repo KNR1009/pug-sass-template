@@ -1,5 +1,3 @@
-/* mixinを一元的に管理 */
-
 $md: 1023px;
 $pc: 1024px;
 
@@ -16,7 +14,7 @@ $pc: 1024px;
   }
 }
 
-// pcのみ適応
+// pcのみ表示
 .p-pc {
   @include pc {
     display: block;
@@ -25,7 +23,7 @@ $pc: 1024px;
     display: none;
   }
 }
-// spのみ適応
+// spのみ表示
 .p-sp {
   @include md {
     display: block;

@@ -1,0 +1,59 @@
+/*=========================================
+color
+=========================================*/
+// common colors
+$PALETTE_PURE_WHITE: #ffffff;
+$PALETTE_PURE_BLACK: #000000;
+$BASE_BG_COLOR: #ffffff;
+$BASE_TEXT_COLOR: #262626;
+
+// palette colors
+$PALETTE_MEDIUM_BLUE: #223d4d;
+$PALETTE_DEEP_GRAY: #202020;
+
+$PALETTE_MEDIUM_BROWN_01: #9f8f68; //見出し等
+$PALETTE_MEDIUM_BROWN_02: #a99669; //
+$PALETTE_LIGHT_BROWN: #b7a77f;
+
+$PALETTE_MIDIUM_BEIGE: #edebe7;
+$PALETTE_LIGHT_BEIGE: #f8f7f6;
+
+// TODO:各拠点カラーの追加
+
+// button color
+$BUTTON_COLOR: #202020;
+$CONTACT_BUTTON_COLOR: #142c3e;
+
+$LOCATION_MAGUROHUDO: #b3d4fc;
+$LOCATION_OOTSUkA: #e2b5ad;
+$LOCATION_MUSASHIKOSUGI: #d4b673;
+$LOCATION_KAWASAKI: #8db7bd;
+$LOCATION_SEKIUCHI: #b8bcb4;
+$LOCATION_SHINSEN: #f1f0ee;
+$LOCATION_OOMORI: #87a192;
+
+/*=========================================
+font
+=========================================*/
+//font-weight
+$WEIGHT_BOLD: 700;
+$WEIGHT_SEMIBOLD: 600;
+$WEIGHT_MEDIUM: 500;
+$WEIGHT_REGULAR: 400;
+$WEIGHT_LIGHT: 300;
+
+// font-family
+$FONT_NOTO_SANS: YakuHanJP_Noto, "Noto Sans JP";
+$FONT_ROBOTO: "Roboto Condensed", sans-serif;
+$FONT_ROCK_SALT: "Rock Salt", cursive;
+$FONT_AWESOME: "Font Awesome 5 Pro";
+
+$FONT_JP: $FONT_NOTO_SANS, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+  YuGothic, "Yu Gothic", sans-serif;
+
+/*=========================================
+z-index
+=========================================*/
+// z-index
+$Z_INDEX_HEADER: 1000;
+$Z_INDEX_FOOTER: 9990;
