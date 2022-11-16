@@ -88,9 +88,9 @@ gulp.task("js", function () {
 /* 画像圧縮 */
 gulp.task("image", function () {
   var image = gulp
-    .src(paths.src + "/images/**")
+    .src(paths.src + "/image/**")
     // 一度圧縮した画像を再度圧縮しないようにする
-    .pipe(changed("./dest/assets/images/"))
+    .pipe(changed("./dest/assets/image/"))
     .pipe(
       imageMin([
         pngquant({
@@ -104,7 +104,7 @@ gulp.task("image", function () {
         imageMin.gifsicle({ optimizationLevel: 3 }),
       ])
     )
-    .pipe(gulp.dest(paths.dest + "assets/images"));
+    .pipe(gulp.dest(paths.dest + "/assets/image"));
 
   return merge(image);
 });
