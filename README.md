@@ -1,44 +1,43 @@
-# pug-sass-template
+# プロジェクト名
 
-- pug-sass 用のプロジェクトテンプレート
-
-## 開発環境
-
-yarn で gulp を走らせて src ディレクトリのソースを dist に出力します。
-yarn は最新の version にしてください。
-
-```
-$ cd src
-$ yarn (初回のみ)
-$ yarn gulp もしくは yarn dev（実行するとdistディレクトリに出力されます。）
-```
-
-ローカル環境が自動で立ち上がります
+- プロジェクトの説明
 
 ## 使用技術
 
 - pug([pug の書き方](https://qiita.com/takeshisakuma/items/fdcf456d8250e6dafc7b))
 - sass([sass の書き方](https://qiita.com/nchhujimiyama/items/8a6aad5abead39d1352a))
-- jQuery
+- jQuery ([jQueryの書き方](https://www.kagoya.jp/howto/it-glossary/web/jquery/))
+- [gulp.js](https://gulpjs.com/)
+
+## 開発環境
+
+```
+$ cd src
+# パッケージのインストール(初回のみ)
+$ yarn
+# ローカル環境の立ち上げ
+$ yarn gulp
+```
+http://localhost:3000/ が立ち上がればOKです
 
 ## CSS 設計について
 
-- クラス名は BEM を採用
-- CSS 設計は「[FLOCSS](https://qiita.com/super-mana-chan/items/644c6827be954c8db2c0)」でコーディングをしています
+- クラス名は BEM を採用 ([BEMを使った書き方についてまとめてみた](https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc))
+- CSS設計は[FLOCSS](https://qiita.com/super-mana-chan/items/644c6827be954c8db2c0)を採用
 
 ## ディレクトリ構成
 
-### pug/dxx
+### pug/xxx
 
 HTML(pug)を記述していくディレクトリになっています。
-最終的に index.pug にコンポーネントやレイアウトファイルを読み込ませます
+最終的に index.pug にコンポーネントやレイアウトファイルを読み込ませて出力させています。
 
-### pug/dxx/Object
+### pug/xxx/Object
 
 この中に component(ボタンなどの小さい単位)たプロジェクト(セクションごとの単位)を格納して、最終的に index.pug にて読み込んでいます。
 ファイル名に関しては、コンポーネントの場合は「c-xx」で、プロジェクトの場合は「p-xx」と命名してください。
 
-### sass/dxx/
+### sass/xxx/
 
 FLOCSS 設計で構成されています。
 
@@ -52,7 +51,7 @@ FLOCSS 設計で構成されています。
 
 jQuery ファイルを読み込んでいます。(あんまりない)
 
-### images/dxx
+### images/xxx
 
 画像は全てこちらに格納してください。
 
